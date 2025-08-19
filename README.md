@@ -7,7 +7,9 @@ Youtube sources :
 ## To add SSH key to github
 
 - Open GitBash and execute following command - 
-```ssh-keygen -t ed25519 -C "youremail@example.com"```
+```console
+ssh-keygen -t ed25519 -C "youremail@example.com"
+```
 
 - Keep pressing enter till you get the key's randomart image in the terminal.
 
