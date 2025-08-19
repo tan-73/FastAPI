@@ -14,7 +14,9 @@ ssh-keygen -t ed25519 -C "youremail@example.com"
 - Keep pressing enter till you get the key's randomart image in the terminal.
 
 - Next execute the following command - 
-```clip < ~/.ssh/id_ed25519.pub```
+```console
+clip < ~/.ssh/id_ed25519.pub
+```
 
 - This copies your SSH key in local system to clipboard. 
 
@@ -23,4 +25,6 @@ ssh-keygen -t ed25519 -C "youremail@example.com"
 - Paste the SSH key.
 
 - To test if Github recognizes the key, execute - 
-```ssh -T git@github.com```
+```console
+ssh -T git@github.com
+```
